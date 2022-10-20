@@ -1,5 +1,6 @@
 ---
   - name: Install Java
+    become: yes
     hosts: all
     roles:
       - java
