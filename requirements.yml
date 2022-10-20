@@ -1,6 +1,5 @@
 ---
-  - src: git@github.com:netology-code/mnt-homeworks-ansible.git
-    scm: git
-    version: "1.0.1"
-    name: ansible-clickhouse 
-    key_file: ./secret
+- name: ansible-clickhouse
+  src: git@github.com:dimsunv/ansible-clickhouse
+  scm: git
+  version: "1.12.2"
